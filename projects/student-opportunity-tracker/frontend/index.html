@@ -20,6 +20,72 @@
             <a href="add-opportunity.html" class="nav-link">+ Add New</a>
         </nav>
     </header>
-
-</body>
-</html>
+   <!-- SECTION 2: SEARCH AND CATEGORY FILTERS--> 
+    <section class = "controls-section">
+        <div class = "search-box">
+            <input
+            type = "text"
+            id = "search-input"
+            placeholder = "search oppurtunities (e.g. Google , Hackathon , java)..."
+            />
+            </div>
+            <div class = "filter-chips">
+                <button class = "chip active">All</button>
+                <button class = "chip">Internships</button>
+                <button class = "chip">Hackathons</button>
+                <button class = "chip">Scholarships</button>
+                </div>
+        </section>
+        <!-- SECTION 3: OPPURTUNITY CARDS GRID-->
+         <main class="main-content">
+            <div class = "class-grid">
+                <article class = "oppurtunity-card">
+                    <div class = "card-header">
+                        <span class = "badge category-badge">Internship</span>
+                        <span class = "badge status-badge open">Open</span>
+                        </div>
+                        <h3 class = "card-title">Google STEP Intern 2026</h3>
+                        <p class = "company">Google • Remote / Bangalore</p>
+                        <p class="description">12-week internship program for first and second-year undergraduate students in Computer Science.</p>
+                        <div class = "card-footer">
+                            <span class = "deadline"><strong>Deadline:</strong>Dec 30, 2026</span>
+                            <div class = "card-actions">
+                                <button class ="btn btn-secondary">Save</button>
+                                <button class = "btn btn-primary">Apply Now</button>
+                                </div>
+                                </div>
+                </article>
+                <article class="opportunity-card">
+                <div class="card-header">
+                    <span class="badge category-badge">Hackathon</span>
+                    <span class="badge status-badge open">Open</span>
+                </div>
+                <h3 class="card-title">HackKerala 2026</h3>
+                <p class="company">CUSAT CSE • Kochi, Kerala</p>
+                <p class="description">36-hour state-level hackathon with tracks in Web3, AI, and Open Source software.</p>
+                <div class="card-footer">
+                    <span class="deadline"><strong>Deadline:</strong> Dec 15, 2026</span>
+                    <div class="card-actions">
+                        <button class="btn btn-secondary">Save</button>
+                        <button class="btn btn-primary">Apply Now</button>
+                    </div>
+                </div>
+            </article>
+            <article class="opportunity-card">
+                <div class="card-header">
+                    <span class="badge category-badge">Scholarship</span>
+                    <span class="badge status-badge closed">Closing Soon</span>
+                </div>
+                <h3 class="card-title">Siemens Tech Scholar</h3>
+                <p class="company">Siemens Foundation • India</p>
+                <p class="description">Financial aid and mentorship program for engineering students from low-income backgrounds.</p>
+                <div class="card-footer">
+                    <span class="deadline"><strong>Deadline:</strong> Nov 10, 2026</span>
+                    <div class="card-actions">
+                        <button class="btn btn-secondary">Save</button>
+                        <button class="btn btn-primary">Apply Now</button>
+                    </div>
+                </div>
+            </article>
+            </div>
+</main>
